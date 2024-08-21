@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+}
+.container
+{
+  margin: 50px;
+}
+.heading{
+  text-align: center;
+}
+.gap{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.container a {
+  text-decoration: underline;
+  color: blue;
+}
+
+.container .box a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .container
+{
+  margin: 8px;
+}
+}
